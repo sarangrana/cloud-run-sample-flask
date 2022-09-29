@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/health')
 def health():
-    return 'It is alive!\n'
+    return 'Test - It is alive!\n'
 
 
 @app.route('/hello')
