@@ -63,3 +63,14 @@ curl \
 If you see the output above, it means everything is working as expected.
 
 After everything is running, please make sure to keep reading the [tutorial](https://medium.com/ci-t/how-to-set-up-a-deployment-pipeline-on-gcp-with-cloud-build-container-registry-and-cloud-run-73391f5b77e4).
+
+## 5. Branching Strategy
+
+Master Branch : Main branch of the source code repo, super stable. Only allowed to be merged from develop or hotfix.
+
+Develop Branch : The main source branch for any of the feature branch creation, allowed to be merged from any feature branch after successful test case pass and via raising a pull request.
+
+Feature Branch : This is a branch which should be created from Develop whenever any new feature needs to be implemented, once the work is completed it should be merged back  to develop via raising a pull request once all the test cases are approved.
+
+![image](https://user-images.githubusercontent.com/36162846/194178703-c3636b06-bae1-4e63-85f1-a9f949c4ae35.png)
+
