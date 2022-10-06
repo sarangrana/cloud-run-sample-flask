@@ -1,4 +1,4 @@
-Testing Cloud Build - Test
+Testing Cloud Build
 # cloud-run-sample-flask
 
 ## 1. Introduction
